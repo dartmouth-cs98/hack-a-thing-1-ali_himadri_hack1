@@ -1,0 +1,18 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:201262656172:function:ee1cc057-15b2-42d6-81dd-e14736b5b642:Release_0"
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "SpotifyHack"
+        }
+      }
+    }
+  }
+}
