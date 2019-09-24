@@ -19,4 +19,4 @@ We learned how to set up and use AWS to host a backend for a web app and for the
 
 ### What didn’t work
 
-We weren't able to link our Alexa input with the API due to some problems testing and deploying code in the ASK Console and we struggled to navigate Amazon's ASK git integration. 
+We weren't able to link our Alexa input with the API due to some problems testing and deploying code in the ASK Console and we struggled to navigate Amazon's ASK git integration. Himadri is currently trying to figure out how to fix that - seems to be an issue with node.js (https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/issues/533).
