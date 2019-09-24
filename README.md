@@ -6,7 +6,7 @@ We attempted to build an alexa skill that uses the Spotify Web Api. We thought i
 We both worked on research and reading online resources about how similar projects are built. Together, we set up the Amazon ASK CLI developer console through Himadri's account and registered a spotify application. We then worked through the setup together. We got to a point where on the Alexa app we could view the skill and log in with the spotify account. Then we encountered some errors when beginning to access the data and Himadri worked more on fixing that and navigating the Amazon github integration and some inherent issues with the Alexa Skills Kit. Ali at this point focused on getting a separate app working with the Spotify API through the online tutorial.
 ### What you learned
 
-Followed the following tutorials: 
+Followed the following tutorials:
 - https://developer.spotify.com/documentation/general/guides/authorization-guide/
 - https://developer.amazon.com/docs/custom-skills/steps-to-build-a-custom-skill.html
 - https://api-university.com/blog/part-1-registration-with-oauth-provider/
@@ -15,8 +15,8 @@ Followed the following tutorials:
 - https://github.com/spotify/web-api-auth-examples
 - https://github.com/thelinmichael/spotify-web-api-node
 
-We learned how to set up and use AWS to host a backend for a web app and for the alexa skill. We also learned the alexa development cycle and how to send and process intents. Himadri also had little experience with javascript so working in node and learning how to code in js was extremely useful. We also both learned how to set up an Alexa Skill project and use the ASK CLI in order to create and deploy code. Finally, we learned a bit about github integration and connecting an API call with an ASK application.
+We learned how to set up and use AWS to host a backend for a web app and for the alexa skill. We also learned the alexa development cycle and how to send and process intents. We also had little experience with javascript so working in node and learning how to code in js was extremely useful. We also both learned how to set up an Alexa Skill project and use the ASK CLI in order to create and deploy code. There was a lot of debugging in our process with connecting the amazon and spotify accounts and encountering errors in the amazon developer console. We also learned about the credentials required to access an API and how OAuth gives developer access to user's data. Finally, we learned a bit about github integration and connecting an API call with an ASK application.
 
 ### What didn’t work
 
-We weren't able to link our Alexa input with the API due to some problems testing and deploying code in the ASK Console and we struggled to navigate Amazon's ASK git integration. Himadri is currently trying to figure out how to fix that - seems to be an issue with node.js (https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/issues/533).
+We weren't able to link our Alexa input with the API due to some problems testing and deploying code in the ASK Console and we struggled to navigate Amazon's ASK git integration. Himadri is currently trying to figure out how to fix that - seems to be an issue with node.js (https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs/issues/533). The authorization code in Ali's side app works and allows a login and although she worked for a few hours on it, she is still figuring out how to view the spotify data requested. 
